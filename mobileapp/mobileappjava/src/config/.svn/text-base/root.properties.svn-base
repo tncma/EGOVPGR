@@ -1,0 +1,13 @@
+publish.dir=
+download.server=118.102.160.130
+db.user=egovcollection
+db.pwd=egovcollection
+db.name=devdb
+db.server=192.168.1.43
+db.port=1521
+db.jndi=java:/ezgovDatabasePool
+db.hibname=java:/hibernate/EGovHibernateFactory
+db.datasetname=temp.xml
+contextDir=
+version=1.0
+

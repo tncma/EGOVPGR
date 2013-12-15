@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/erpbuild/!svn/ver/46273/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/WEB-INF/jsp/login/registration
+END
+mobileUser-regform.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/erpbuild/!svn/ver/46181/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/WEB-INF/jsp/login/registration/mobileUser-regform.jsp
+END
+mobileUser-login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/erpbuild/!svn/ver/46273/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/WEB-INF/jsp/login/registration/mobileUser-login.jsp
+END
+mobileUser-loginsuccess.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/erpbuild/!svn/ver/45640/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/WEB-INF/jsp/login/registration/mobileUser-loginsuccess.jsp
+END
+mobileUser-resetPassword.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/erpbuild/!svn/ver/45864/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/WEB-INF/jsp/login/registration/mobileUser-resetPassword.jsp
+END

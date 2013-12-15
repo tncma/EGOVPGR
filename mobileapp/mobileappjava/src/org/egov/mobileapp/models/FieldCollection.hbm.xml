@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 10 Sep, 2009 12:59:28 PM by Hibernate Tools 3.2.0.CR1 -->
+<hibernate-mapping auto-import="false">
+	<class name="org.egov.mobileapp.models.FieldCollection" table="EGMA_FIELDCOLLECTION">
+		<id name="id" type="long">
+			<column name="ID" precision="22" scale="0" />
+			<generator class="sequence">
+				<param name="sequence">SEQ_EGMA_FIELDCOLLECTION</param>
+			</generator>
+		</id>
+		<property name="collectionType" type="big_decimal">
+			<column name="COLLECTION_TYPE" />
+		</property>
+		<property name="amount" type="big_decimal">
+			<column name="AMOUNT" />
+		</property>
+		<property name="manualReceiptNumber" type="string">
+			<column name="MANUALRECEIPTNUMBER" length="50" />
+		</property>
+		<property name="manualReceiptDate" type="date">
+			<column name="MANUALRECEIPTDATE" length="7" />
+		</property>
+		<property name="receiptDate" type="date">
+			<column name="RECEIPTDATE" length="7" />
+		</property>
+		<many-to-one name="createdBy" class="org.egov.lib.rjbac.user.UserImpl"
+			fetch="select" lazy="proxy">
+			<column name="CREATED_BY" precision="22" scale="0" />
+		</many-to-one>
+		<property name="createdDate" column="CREATED_DATE" type="timestamp"
+			lazy="true" />
+		<property name="modifiedDate" column="MODIFIED_DATE" type="timestamp"
+			lazy="true" />
+		<many-to-one name="modifiedBy" class="org.egov.lib.rjbac.user.UserImpl"
+			fetch="select" lazy="proxy">
+			<column name="MODIFIED_BY" precision="22" scale="0" />
+		</many-to-one>
+	</class>
+	<query name="CREATEDBYUSERS_OF_MOBILERECEIPTS">
+    <![CDATA[select distinct createdBy from org.egov.mobileapp.models.FieldCollection]]></query>
+
+</hibernate-mapping>

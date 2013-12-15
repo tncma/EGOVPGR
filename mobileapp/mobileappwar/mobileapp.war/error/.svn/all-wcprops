@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/erpbuild/!svn/ver/45604/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/error
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/erpbuild/!svn/ver/45604/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/error/error.jsp
+END
+invalidrequest.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/erpbuild/!svn/ver/45604/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/error/invalidrequest.jsp
+END
+accessdenied.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/erpbuild/!svn/ver/45604/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/error/accessdenied.jsp
+END
+notfound.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/erpbuild/!svn/ver/45604/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/error/notfound.jsp
+END
+AuthError.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/erpbuild/!svn/ver/45604/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/error/AuthError.jsp
+END
+genericError.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/erpbuild/!svn/ver/45604/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/error/genericError.jsp
+END
+unauthorized.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/erpbuild/!svn/ver/45604/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/error/unauthorized.jsp
+END

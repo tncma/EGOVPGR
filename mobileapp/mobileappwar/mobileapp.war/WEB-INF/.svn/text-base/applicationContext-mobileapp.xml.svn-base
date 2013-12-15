@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+	default-lazy-init="true">
+	
+	 <bean id="userDao" class="org.egov.lib.rjbac.user.dao.UserDAO" scope="prototype"/>   
+		
+		<bean class="org.egov.portal.services.PortalUserRegistrationService" parent="persistenceService" name="egiPortalUserService"  id="egiPortalUserService" >
+			<property name="type" value="org.egov.lib.rjbac.user.UserImpl" />
+			<property name="persistenceService" ref="persistenceService"/>
+		</bean>
+		
+		<bean class="org.egov.mobileapp.services.poc.ReceiptPOCService" parent="persistenceService" name="receiptPOCService"  id="receiptPOCService" >
+			<property name="type" value="org.egov.mobileapp.models.FieldCollection" />
+			<property name="persistenceService" ref="persistenceService"/>
+		</bean>
+  
+</beans>

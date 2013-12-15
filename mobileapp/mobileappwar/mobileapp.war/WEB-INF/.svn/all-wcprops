@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/erpbuild/!svn/ver/50035/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/WEB-INF
+END
+displaytag.tld
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/erpbuild/!svn/ver/46951/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/WEB-INF/displaytag.tld
+END
+security.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/erpbuild/!svn/ver/45640/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/WEB-INF/security.xml
+END
+applicationContext-mobileapp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/erpbuild/!svn/ver/46939/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/WEB-INF/applicationContext-mobileapp.xml
+END
+struts-dojo-tags.tld
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/erpbuild/!svn/ver/46951/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/WEB-INF/struts-dojo-tags.tld
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/erpbuild/!svn/ver/46928/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/WEB-INF/web.xml
+END

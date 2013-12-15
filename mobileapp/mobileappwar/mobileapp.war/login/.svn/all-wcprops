@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/erpbuild/!svn/ver/50030/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/login
+END
+securityLogin.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/erpbuild/!svn/ver/50030/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/login/securityLogin.jsp
+END
+logout.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/erpbuild/!svn/ver/45631/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/login/logout.jsp
+END
+TerminalAjax.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/erpbuild/!svn/ver/45631/coc/trunk/modules/mobileapp/mobileappwar/mobileapp.war/login/TerminalAjax.jsp
+END
